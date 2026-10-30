@@ -1,3 +1,18 @@
 @import "tailwindcss";
 @import "@ebitex/starter-kit-react/styles.css";
 @source "../node_modules/@ebitex/starter-kit-react/dist";
+
+/* Cinder Lane: the brand is tokens, not a fork of the kit. */
+[data-ebitex-theme="dark"] {
+  --ebitex-surface: #000000;
+  --ebitex-raised: #0d0c0b;
+  --ebitex-muted: #14110e;
+  --ebitex-ink: #ffffff;
+  --ebitex-ink-muted: #c2bcb4;
+  --ebitex-line: #332b22;
+  --ebitex-accent: #f2a33a;
+  --ebitex-accent-ink: #000000;
+  --ebitex-accent-soft: #2b1d0b;
+}
+:root { --ebitex-font-display: Anton, Impact, 'Arial Narrow', sans-serif; }
+h1, h2, h3, [data-ebitex-site-name] { font-style: italic; text-transform: uppercase; letter-spacing: .01em; }
