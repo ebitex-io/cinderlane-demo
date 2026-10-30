@@ -1,0 +1,3 @@
+@import "tailwindcss";
+@import "@ebitex/starter-kit-react/styles.css";
+@source "../node_modules/@ebitex/starter-kit-react/dist";
